@@ -5,7 +5,8 @@ He desarrollado una página web que se compone de varios elementos interactivos 
 
 ![Captura de pantalla 2024-10-14 223244](https://github.com/user-attachments/assets/1b81567b-d5bf-471b-9fcd-93f21d930968)
 
-
+  
      Comenta a otros sobre este proyecto 📢
-    Invita un café ☕
-    Da las gracias públicamente.
+     Invita un café ☕
+     Da las gracias públicamente.
+
