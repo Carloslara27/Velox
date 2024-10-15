@@ -1,0 +1,169 @@
+*,
+:after,
+:before {
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+:after,
+:before {
+    --tw-content: "";
+}
+
+input {
+    font-feature-settings: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    font-variation-settings: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+input::placeholder {
+    color: #9ca3af;
+}
+
+:disabled {
+    cursor: default;
+}
+
+input::placeholder {
+    color: #6b7280;
+    opacity: 1;
+}
+
+[type=checkbox] {
+    --tw-shadow: 0 0 #0000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-origin: border-box;
+    border-color: #6b7280;
+    border-width: 1px;
+    color: #1c64f2;
+    display: inline-block;
+    flex-shrink: 0;
+    height: 1rem;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    width: 1rem;
+}
+
+[type=checkbox] {
+    border-radius: 0;
+}
+
+[type=checkbox]:focus {
+    --tw-ring-inset: var(--tw-empty, );
+    --tw-ring-offset-width: 2px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: #1c64f2;
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.dark [type=checkbox]:checked,
+[type=checkbox]:checked {
+    background-color: currentColor;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: .55em .55em;
+    border-color: transparent;
+}
+
+[type=checkbox]:checked {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 12'%3E%3Cpath stroke='%23fff' strokeLinecap='round' strokeLinejoin='round' strokeWidth='3' d='M1 5.917 5.724 10.5 15 1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: .55em .55em;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+*,
+:after,
+:before {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(63, 131, 248, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+}
+
+.h-4 {
+    height: 1rem;
+}
+
+.w-4 {
+    width: 1rem;
+}
+
+.rounded {
+    border-radius: .25rem;
+}
+
+.border-gray-300 {
+    --tw-border-opacity: 1;
+    border-color: rgb(209 213 219/var(--tw-border-opacity));
+}
+
+.bg-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246/var(--tw-bg-opacity));
+}
+
+.text-blue-600 {
+    --tw-text-opacity: 1;
+    color: rgb(28 100 242/var(--tw-text-opacity));
+}
+
+.focus\:ring-2:focus {
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-2:focus {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+}
+
+.focus\:ring-blue-500:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(63 131 248/var(--tw-ring-opacity));
+}
+
+:is(.dark .dark\:border-gray-600) {
+    --tw-border-opacity: 1;
+    border-color: rgb(75 85 99/var(--tw-border-opacity));
+}
+
+:is(.dark .dark\:bg-gray-700) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81/var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:ring-offset-gray-800) {
+    --tw-ring-offset-color: #1f2937;
+}

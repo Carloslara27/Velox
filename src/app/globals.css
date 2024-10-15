@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button[data-state="active"] {
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+}
+
+body {
+    overflow: hidden;
+
+    font-family: "Anek Bangla", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-style: normal !important;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+
